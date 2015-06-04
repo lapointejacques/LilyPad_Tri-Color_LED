@@ -4021,6 +4021,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="MICRO-FIDUCIAL">
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -7759,6 +7762,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="REVISION">
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME" uservalue="yes">
@@ -7953,6 +7959,18 @@ Various fiducial points for machine vision alignment.</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION">
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8166,16 +8184,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$4" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="157.48" y="35.56" size="5.08" layer="94">SparkFun Electronics</text>
-<text x="238.76" y="7.62" size="2.1844" layer="94">v21</text>
+<text x="238.76" y="7.62" size="2.1844" layer="94">v20</text>
 <text x="171.704" y="11.43" size="1.778" layer="97">Aaron Weiss</text>
-<text x="152.4" y="7.62" size="1.778" layer="97">Revision by: Dia Campbell</text>
 <text x="71.12" y="71.12" size="1.27" layer="97">Non-functional; for aesthetic purposes</text>
 <text x="71.12" y="116.84" size="1.27" layer="97">3.3-5v operating voltage</text>
+<text x="175.26" y="7.62" size="1.778" layer="97">Dia Campbell</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="132.08" y="96.52" smashed="yes">
@@ -8189,7 +8208,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GRN" gate="G$1" x="96.52" y="88.9" smashed="yes" rot="R180"/>
 <instance part="BLU" gate="G$1" x="96.52" y="104.14" smashed="yes" rot="R180"/>
 <instance part="RED" gate="G$1" x="96.52" y="96.52" smashed="yes" rot="R180"/>
-<instance part="GND" gate="G$1" x="68.58" y="76.2" smashed="yes" rot="R180"/>
+<instance part="GND" gate="G$1" x="157.48" y="96.52" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="68.58" y="73.66" rot="R180"/>
 <instance part="U$3" gate="G$1" x="68.58" y="71.12" rot="R180"/>
 <instance part="U$1" gate="G$1" x="236.22" y="17.78"/>
@@ -8198,6 +8217,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FID1" gate="G$1" x="231.14" y="33.02"/>
 <instance part="FID2" gate="G$1" x="236.22" y="33.02"/>
 <instance part="GND1" gate="1" x="152.4" y="91.44"/>
+<instance part="U$4" gate="G$1" x="148.59" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -8229,11 +8249,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="GND" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<label x="73.66" y="76.2" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="D1" gate="G$1" pin="RC"/>
 <wire x1="142.24" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="GC"/>
@@ -8248,6 +8263,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="152.4" y1="93.98" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
+<junction x="152.4" y="96.52"/>
 </segment>
 </net>
 <net name="N$1" class="0">
