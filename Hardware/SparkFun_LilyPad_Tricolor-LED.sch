@@ -8191,10 +8191,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="157.48" y="35.56" size="5.08" layer="94">SparkFun Electronics</text>
 <text x="238.76" y="7.62" size="2.1844" layer="94">v20</text>
-<text x="171.704" y="11.43" size="1.778" layer="97">Aaron Weiss</text>
+<text x="171.704" y="11.43" size="1.778" layer="94">Aaron Weiss</text>
 <text x="71.12" y="71.12" size="1.27" layer="97">Non-functional; for aesthetic purposes</text>
 <text x="71.12" y="116.84" size="1.27" layer="97">3.3-5v operating voltage</text>
-<text x="175.26" y="7.62" size="1.778" layer="97">Dia Campbell</text>
+<text x="175.26" y="7.62" size="1.778" layer="94">Dia Campbell</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="132.08" y="96.52" smashed="yes">
