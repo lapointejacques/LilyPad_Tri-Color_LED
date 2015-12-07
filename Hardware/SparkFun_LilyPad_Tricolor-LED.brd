@@ -716,7 +716,7 @@
 <vertex x="-1.2" y="-7.9"/>
 <vertex x="0" y="-8.2"/>
 </polygon>
-<text x="-3.937" y="2.286" size="1.27" layer="21" font="vector" ratio="15">RGB LED</text>
+<text x="-3.81" y="2.54" size="1.27" layer="21" font="vector" ratio="15">RGB LED</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -1260,7 +1260,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="0" y="3.81" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="0.889" y="-5.842" rot="MR0"/>
-<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="-3.175" y="3.175"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="-4.572" y="4.064"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="4.318" y="-4.699"/>
 <element name="U$4" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="-87.249" y="-3.048"/>
 </elements>
