@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,11 +24,11 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -48,8 +48,8 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -717,7 +717,10 @@
 <vertex x="0" y="-8.2"/>
 </polygon>
 <text x="-2.54" y="2.54" size="0.8128" layer="21" font="vector" ratio="15">RGB LED</text>
-<text x="-2.54" y="-3.81" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">RGB LED</text>
+<text x="-2.667" y="-3.048" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">RGB LED</text>
+<text x="4.658" y="-3.206" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">B</text>
+<text x="-1.174" y="-5.864" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">R</text>
+<text x="-3.812" y="-3.176" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">G</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -1302,10 +1305,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="GND" pad="1"/>
 <wire x1="0" y1="7.493" x2="0" y2="3.429" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.3048" orphans="yes">
-<vertex x="-11.43" y="11.43"/>
-<vertex x="-11.43" y="-11.43"/>
-<vertex x="11.43" y="-11.43"/>
-<vertex x="11.43" y="11.43"/>
+<vertex x="-10.922" y="10.922"/>
+<vertex x="-10.922" y="-10.922"/>
+<vertex x="10.795" y="-10.795"/>
+<vertex x="10.795" y="10.922"/>
 </polygon>
 </signal>
 <signal name="N$1">
