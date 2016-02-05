@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -173,9 +173,9 @@
 <circle x="0" y="0" radius="7.5" width="0.0508" layer="47"/>
 <circle x="0" y="0" radius="5.8309" width="0.0508" layer="47"/>
 <circle x="0" y="0" radius="4.5" width="0.0508" layer="47"/>
-<text x="1.239" y="-5.864" size="1.27" layer="21" font="vector" ratio="15">R</text>
+<text x="-5.238" y="-2.181" size="1.27" layer="21" font="vector" ratio="15">R</text>
 <text x="4.15" y="-2.444" size="1.27" layer="21" font="vector" ratio="15">B</text>
-<text x="-5.082" y="-2.287" size="1.27" layer="21" font="vector" ratio="15">G</text>
+<text x="1.649" y="-6.097" size="1.27" layer="21" font="vector" ratio="15">G</text>
 <text x="-0.5" y="4.392" size="1.4224" layer="21" ratio="15">-</text>
 <polygon width="0.2032" layer="29">
 <vertex x="-6" y="0"/>
@@ -719,8 +719,8 @@
 <text x="-2.54" y="2.54" size="0.8128" layer="21" font="vector" ratio="15">RGB LED</text>
 <text x="-2.667" y="-3.048" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">RGB LED</text>
 <text x="4.658" y="-3.206" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">B</text>
-<text x="-1.174" y="-5.864" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">R</text>
-<text x="-3.812" y="-3.176" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">G</text>
+<text x="-3.841" y="-3.197" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">R</text>
+<text x="-1.272" y="-6.097" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">G</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -1243,17 +1243,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-07862" x="3.084" y="-2.884" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="20" x="3.084" y="-2.884" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="82" x="0" y="-4.119" rot="R90">
-<attribute name="PROD_ID" value="RES-12311" x="0" y="-4.119" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="0" y="-4.119" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="82" x="-3.175" y="-2.849" rot="R90">
+<attribute name="PROD_ID" value="RES-12311" x="-3.175" y="-2.849" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="82" x="-3.175" y="-2.849" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="20" x="-3.084" y="-2.884" rot="R270">
-<attribute name="PROD_ID" value="RES-07862" x="-3.084" y="-2.884" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="20" x="-3.084" y="-2.884" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="20" x="-0.09" y="-4.663" rot="R180">
+<attribute name="PROD_ID" value="RES-07862" x="-0.09" y="-4.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="20" x="-0.09" y="-4.663" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="GRN" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="-6.5024" y="-3.7592" rot="R300"/>
+<element name="GRN" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="0" y="-7.493"/>
 <element name="BLU" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="6.5024" y="-3.7592" rot="R60"/>
-<element name="RED" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="0" y="-7.493"/>
+<element name="RED" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="-6.5024" y="-3.7592" rot="R300"/>
 <element name="GND" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="0" y="7.493" rot="R180"/>
 <element name="U$2" library="LilyPad-Wearables" package="PETAL-NOHOLE-2SIDE" value="SEWTAP-NOHOLE2" x="6.5024" y="3.7592" rot="R120"/>
 <element name="U$3" library="LilyPad-Wearables" package="PETAL-NOHOLE-2SIDE" value="SEWTAP-NOHOLE2" x="-6.5024" y="3.7592" rot="R240"/>
@@ -1272,15 +1272,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="RED">
 <contactref element="D1" pad="AR"/>
 <contactref element="R2" pad="2"/>
-<wire x1="0" y1="-1.475" x2="0" y2="-3.269" width="0.254" layer="1"/>
+<wire x1="0" y1="-1.475" x2="0" y2="-0.508" width="0.254" layer="1"/>
+<wire x1="0" y1="-0.508" x2="-0.381" y2="-0.127" width="0.254" layer="1"/>
+<wire x1="-0.381" y1="-0.127" x2="-2.794" y2="-0.127" width="0.254" layer="1"/>
+<wire x1="-2.794" y1="-0.127" x2="-3.175" y2="-0.508" width="0.254" layer="1"/>
+<wire x1="-3.175" y1="-1.999" x2="-3.175" y2="-0.508" width="0.254" layer="1"/>
 </signal>
 <signal name="GRN">
 <contactref element="R3" pad="2"/>
 <contactref element="D1" pad="AG"/>
-<wire x1="-3.084" y1="-3.734" x2="-1.956" y2="-3.734" width="0.254" layer="1"/>
-<wire x1="-1.956" y1="-3.734" x2="-1.143" y2="-2.921" width="0.254" layer="1"/>
-<wire x1="-1.143" y1="-2.921" x2="-1.143" y2="-1.518" width="0.254" layer="1"/>
-<wire x1="-1.143" y1="-1.518" x2="-1.1" y2="-1.475" width="0.254" layer="1"/>
+<wire x1="-1.1" y1="-1.475" x2="-1.1" y2="-4.503" width="0.254" layer="1"/>
+<wire x1="-1.1" y1="-4.503" x2="-0.94" y2="-4.663" width="0.254" layer="1"/>
 </signal>
 <signal name="BLU">
 <contactref element="R1" pad="2"/>
@@ -1323,16 +1325,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$2">
 <contactref element="RED" pad="1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="0" y1="-4.969" x2="0" y2="-7.493" width="0.254" layer="1"/>
+<wire x1="-6.5024" y1="-3.7592" x2="-3.2352" y2="-3.7592" width="0.254" layer="1"/>
+<wire x1="-3.2352" y1="-3.7592" x2="-3.175" y2="-3.699" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="GRN" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="-6.5024" y1="-3.7592" x2="-6.5024" y2="-2.1844" width="0.254" layer="1"/>
-<wire x1="-6.5024" y1="-2.1844" x2="-4.953" y2="-0.635" width="0.254" layer="1"/>
-<wire x1="-3.084" y1="-2.034" x2="-3.084" y2="-1.107" width="0.254" layer="1"/>
-<wire x1="-3.084" y1="-1.107" x2="-3.556" y2="-0.635" width="0.254" layer="1"/>
-<wire x1="-3.556" y1="-0.635" x2="-4.953" y2="-0.635" width="0.254" layer="1"/>
+<wire x1="0.76" y1="-4.663" x2="0.76" y2="-6.733" width="0.254" layer="1"/>
+<wire x1="0.76" y1="-6.733" x2="0" y2="-7.493" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
 <polygon width="0.254" layer="16" isolate="0.3048">
